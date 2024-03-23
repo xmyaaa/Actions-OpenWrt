@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder
+name: rax3000m-cmcc
 
 on:
   repository_dispatch:
