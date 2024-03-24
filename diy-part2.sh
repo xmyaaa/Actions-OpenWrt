@@ -20,10 +20,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
 echo '替换Passwall软件'
-rm -rf feeds/luci/applications/luci-app-passwall
-git clone -b main --single-branch https://github.com/xiaorouji/openwrt-passwall feeds/luci/applications/luci-app-passwall
-mv feeds/luci/applications/luci-app-passwall/luci-app-passwall/* feeds/luci/applications/luci-app-passwall/
-rm -rf feeds/luci/applications/luci-app-passwall/luci-app-passwall
+
 echo '=========Replace passwall source OK!========='
 
 echo '修改Passwall检测规则'
