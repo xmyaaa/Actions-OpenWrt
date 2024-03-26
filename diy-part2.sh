@@ -19,6 +19,11 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
+echo '替换golang到1.22.x'
+#rm -rf feeds/packages/lang/golang
+#git clone -b 22.x --single-branch https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
+echo '=========Replace golang OK!========='
+
 echo '替换Passwall软件'
 
 echo '=========Replace passwall source OK!========='
