@@ -29,4 +29,4 @@ echo '=========Add passwall feeds source OK!========='
 #git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 #
 #
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
